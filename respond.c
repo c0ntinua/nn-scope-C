@@ -18,6 +18,11 @@ void respond() {
         D++;if (D > MAX_D) D = 1;
         randomize_data(data_spread);
     }
+    if (IsKeyReleased(KEY_Z)) {
+        L = 1; H = 1;
+        D++;if (D > MAX_D) D = 1;
+        build_height_layers(H,L);
+    }
 
 
 }
