@@ -13,6 +13,7 @@
 #include "grad.c"
 #include "train.c"
 #include "randomize.c"
+#include "act.c"
 #include "respond.c"
 #include "plot.c"
 #include "main.c"
