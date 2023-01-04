@@ -19,7 +19,7 @@ void respond() {
         randomize_data(data_spread);
     }
     if (IsKeyReleased(KEY_Z)) {
-        L = 1; H = 1;
+        L = 2; H = 2;
         D++;if (D > MAX_D) D = 1;
         build_height_layers(H,L);
     }

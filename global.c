@@ -33,7 +33,7 @@ const f64 vppu = f_screen_height / (plot_y_max - plot_y_min);
 const color f_color = (color){.r = 255, .g = 0, .b = 0, .a = 100};
 const f32 f_thickness = 8.0;
 const color data_color = (color){.r = 255, .g = 255, .b = 255, .a = 200};
-const color weight_color = (color){.r = 255, .g = 0, .b = 0, .a = 100};
+const color weight_color = (color){.r = 155, .g = 155, .b = 0, .a = 100};
 const color vertex_color = (color){.r = 255, .g = 255, .b = 255, .a = 255};
 const i32 plot_segments = 5000;
 const f64 plot_gap = (plot_x_max - plot_x_min) / (f64)plot_segments;
