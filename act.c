@@ -32,7 +32,7 @@ void display_activations(Font font) {
     f32 act_y = 20;
     for (i32 i = 0; i <= L; i++) {
         sprintf(report, "%d", act_code[i]);
-        DrawTextEx(font, report, (vec){20+40*i,20} ,20, (float)0.0, WHITE);
+        DrawTextEx(font, report, (vec){20+40*i,20} ,40, (float)0.0, WHITE);
     }
 }
 void display_rate(Font font) {

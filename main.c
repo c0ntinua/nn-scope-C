@@ -5,7 +5,7 @@ int main(void) {
     randomize(p,0.5);
     randomize_data(data_spread);
     InitWindow(screen_width, screen_height, "nn-scope-C");
-    Font font = LoadFontEx("SourceCodePro-Regular.ttf", 20, 0, 0);
+    Font font = LoadFontEx("SourceCodePro-Regular.ttf", 200, 0, 0);
     SetTargetFPS(60); 
     load_default_positions();      
     while (!WindowShouldClose())  {

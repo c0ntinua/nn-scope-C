@@ -4,7 +4,7 @@ void respond() {
      if (IsKeyReleased(KEY_LEFT)) change_rate(-0.001);
      if (IsKeyReleased(KEY_R)) rate = 0;
     if (IsKeyReleased(KEY_D)) randomize_data(1.0);
-    if (IsKeyReleased(KEY_P)) {printf("KEY_P");randomize(p,0.6);}
+    if (IsKeyReleased(KEY_P)) randomize(p,0.6);
     if (IsKeyReleased(KEY_L)) {
         L++;if (L >= MAX_L) L = 1;
         build_height_layers(H,L);
